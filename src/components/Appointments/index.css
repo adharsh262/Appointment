@@ -1,0 +1,130 @@
+/* Write your CSS here */
+.bgCont {
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 400px;
+}
+.bgContainer {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Roboto';
+}
+.btnEl {
+  border-radius: 4px;
+  padding: 8px;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  cursor: pointer;
+  outline: none;
+  border: 0 solid #8b5cf6;
+}
+.heading {
+  color: #171f46;
+  font-size: 20px;
+  font-weight: 900;
+}
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.labelEL {
+  color: #b5b7c4;
+  font-size: 10px;
+}
+.inputEl {
+  background-color: #ffffff;
+  border: 2px solid #b5b7c4;
+  border-top: none;
+  border-radius: 2px;
+}
+.seperator {
+  background-color: #b5b7c4;
+  height: 2px;
+  border: 0 solid;
+}
+.starredBtn {
+  border: 1px solid #9897f0;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: transparent;
+  color: #9897f0;
+  height: 30px;
+  width: 70px;
+  font-weight: 600;
+}
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.unorderListContainer {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgMainHead {
+  display: none;
+}
+.applyStyles {
+  border: 1px solid #9897f0;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #9897f0;
+  color: #ffffff;
+  height: 30px;
+  width: 70px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .bgCont {
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 40px;
+    width: 95vw;
+  }
+  .bgContainer {
+    background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto';
+  }
+  .unorderListContainer {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .imgMainHead {
+    display: flex;
+    width: 100%;
+  }
+  .totalFormContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .imgContaoner {
+    width: 45vw;
+  }
+  .formEl {
+    width: 25vw;
+  }
+}
